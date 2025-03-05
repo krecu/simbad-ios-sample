@@ -11,7 +11,6 @@ import PrebidMobile
 import PrebidMobileGAMEventHandlers
 
 fileprivate let storedImpDisplayBanner = "mybl_android_slot4_commerce_home_320x50"
-fileprivate let gamAdUnitDisplayBannerRendering = "/21808260008/prebid_oxb_320x50_banner"
 
 class ViewController: UIViewController, BannerViewDelegate {
     var count = 0

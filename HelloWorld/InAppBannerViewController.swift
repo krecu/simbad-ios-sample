@@ -1,9 +1,9 @@
 import UIKit
 import PrebidMobile
 
-fileprivate let storedImpVideoBanner = "prebid-demo-video-outstream"
+fileprivate let storedImpVideoBanner = "inPage_2_app"
 
-class InAppVideoBannerViewController: BannerBaseViewController, BannerViewDelegate {
+class InAppBannerViewController: BannerBaseViewController, BannerViewDelegate {
     
     // Prebid
     private var prebidBannerView: BannerView!
@@ -19,8 +19,7 @@ class InAppVideoBannerViewController: BannerBaseViewController, BannerViewDelega
         
         // 2. Configure the BannerView
         prebidBannerView.delegate = self
-        prebidBannerView.adFormat = .video
-        prebidBannerView.videoParameters.placement = .InBanner
+        prebidBannerView.adFormat = .banner
         
         // Add Prebid banner view to the app UI
         bannerView.backgroundColor = .clear

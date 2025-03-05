@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		983C16FD1BCF82D91E8DAD64 /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8901854F9BA40CF606726F66 /* Pods_HelloWorld.framework */; };
-		B8EC7D412D4D02B4007C5902 /* InAppVideoBannerViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = B8EC7D402D4D02B4007C5902 /* InAppVideoBannerViewController.swift */; };
+		B8EC7D412D4D02B4007C5902 /* InAppBannerViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = B8EC7D402D4D02B4007C5902 /* InAppBannerViewController.swift */; };
 		D92AF15526A7667B00B4D1BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92AF15426A7667B00B4D1BC /* AppDelegate.swift */; };
 		D92AF15726A7667B00B4D1BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92AF15626A7667B00B4D1BC /* SceneDelegate.swift */; };
 		D92AF15926A7667B00B4D1BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92AF15826A7667B00B4D1BC /* ViewController.swift */; };
@@ -34,7 +34,7 @@
 		2D5D5A0C8AB1E9F35327141F /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		528CD3B4F218A0F44B929E04 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		8901854F9BA40CF606726F66 /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8EC7D402D4D02B4007C5902 /* InAppVideoBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppVideoBannerViewController.swift; sourceTree = "<group>"; };
+		B8EC7D402D4D02B4007C5902 /* InAppBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppBannerViewController.swift; sourceTree = "<group>"; };
 		D92AF15126A7667B00B4D1BC /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92AF15426A7667B00B4D1BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D92AF15626A7667B00B4D1BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		D92AF15326A7667B00B4D1BC /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				B8EC7D402D4D02B4007C5902 /* InAppVideoBannerViewController.swift */,
+				B8EC7D402D4D02B4007C5902 /* InAppBannerViewController.swift */,
 				D92AF15426A7667B00B4D1BC /* AppDelegate.swift */,
 				D92AF15626A7667B00B4D1BC /* SceneDelegate.swift */,
 				D92AF15826A7667B00B4D1BC /* ViewController.swift */,
@@ -170,7 +170,7 @@
 			files = (
 				D92AF16126A7667D00B4D1BC /* LaunchScreen.storyboard in Resources */,
 				D92AF15E26A7667C00B4D1BC /* Assets.xcassets in Resources */,
-				B8EC7D412D4D02B4007C5902 /* InAppVideoBannerViewController.swift in Resources */,
+				B8EC7D412D4D02B4007C5902 /* InAppBannerViewController.swift in Resources */,
 				D92AF15C26A7667B00B4D1BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

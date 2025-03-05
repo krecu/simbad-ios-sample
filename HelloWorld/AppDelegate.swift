@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Set account id and custom Prebid server URL
         Prebid.shared.prebidServerAccountId = "com.arena.banglalinkmela.app"
-        try! Prebid.shared.setCustomPrebidServer(url: "https://prebid.bangladsp.com/openrtb2/auction")
+        try! Prebid.shared.setCustomPrebidServer(url: "https://adbox.ru/ads/prebid")
         
         // Initialize Prebid SDK
         Prebid.initializeSDK(gadMobileAdsVersion: GADGetStringFromVersionNumber(GADMobileAds.sharedInstance().versionNumber)) { status, error in
